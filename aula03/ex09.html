@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dicionário de Formatação do HTML</title>
+
+    <style>
+
+        body{
+            background-color:rgb(210, 247, 247);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            padding-left: 20px;
+        }
+
+        h1{
+            color: rgb(56, 56, 56);
+        }
+
+        h3{
+            color: rgb(59, 59, 59);
+        }
+
+        li{
+            display: inline-block;
+            padding: 10px;
+        }
+
+        li:hover{
+            background-color: rgb(62, 134, 110);
+            color: beige;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            padding: 2px;
+        }
+
+        q{
+            font-size: 8pt;
+        }
+
+        abbr{
+            background-color: black;
+            color: white;
+        }
+        img{
+            float: left;
+        }
+
+    </style>
+</head>
+<body>
+    <img src="imagens/dicionario.png">
+    <h1>Dicionário de Formatação do HTML</h1>
+    <hr>
+    <nav>
+    
+     <ul>
+        <a href="#negrito"><li>Negrito</li></a>
+        <a href="#itálico"><li>Itálico</li></a>
+        <a href="#sublinhado"><li>Sublinhado</li></a>
+        <a href="#tachado"><li>Tachado</li></a>
+        <a href="#marcado"><li>Marcado</li></a>
+        <a href="#small"><li>Small</li></a>
+        <a href="#subscrito"><li>Subscrito</li></a>
+        <a href="#sobrescrito"><li>Sobrescrito</li></a>
+        <a href="#quebra"><li>Quebra de Linha</li></a>
+        <a href="#abreviacao"><li>Abreviação</li></a>
+        <a href="#citacao"><li>Citação</li></a>
+        <a href="#citbloco"><li>Citação em Bloco</li></a>
+        <a href="#endereco"><li>Endereço</li></a>
+        <a href="#barraescalar"><li>Barra Escalar</li></a>
+        <a href="#barraprogresso"><li>Barra de Progresso</li></a>
+     </ul>
+    </nav>
+    <hr>
+
+    <h3 id="negrito"> Negrito</h3>
+
+    <p>-para deixar um texto em <strong> Negrito </strong> usamos a tag <code>strong</code></p>
+
+    <h3 id="itálico"> Itálico</h3>
+
+    <p>-Para deixarmos um texto em <em> Itálico </em> usamos a tag <code>em</code></p>
+
+    <h3 id="sublinhado">Sublinhado</h3>
+
+    <p>-Para deixarmos um texto em <u> Sublinhado </u> usamos a tag <code>u</code> ou a tag <code>ins</code></p> 
+    
+    <h3 id="tachado">Tachado</h3>
+    
+    <p>-Para deixarmos um  texto <del> Tachado </del> usamos a tag <code>del</code></p>
+
+    <h3 id="marcado">Marcado</h3>
+
+    <p>- Para deixarmos um texto <mark> Marcado </mark> usamos a tag <code>mark</code></p>
+
+    <h3 id="small">Small</h3>
+
+    <p>-Para deixarmos um texto em <small> Small </small> usamos tag <code>small</code></p>
+
+    <h3 id="subscrito">Subscrito</h3>
+
+    <p>-Para deixarmos um texto em <sub> Subscrito </sub> usamos a tag <code>sub</code></p>
+
+    <h3 id="sobrescrito">Sobrescrito</h3>
+
+    <p>-Para deixarmos um texto em <sup> sobrescrito </sup> usamos tag <code>sup</code></p>
+
+    <h3 id="quebra">Quebara de Linha</h3>
+
+    <p>-Para qubrarmos uma linha,<br> usamos a tag <code>br</code></p>
+
+    <h3 id="abreviacao">Abreviação</h3>
+
+    <p>-Para criarmos uma Abreviação por exemplo, <abbr title="Centro Paula Souza">CPS</abbr></p>
+
+    <p>-usamos a tag <code>abbr</code></p>
+
+    <h3 id="citacao">Citação</h3>
+
+    <p>-Para criarmos uma <q> Citação </q> usamos a tag <code>q</code></p>
+
+    <h3 id="citbloco">Citação em Bloco</h3>
+
+    <p>-Para Fazermos uma Citação em Bloco, por exemplo:</p>
+
+    <blockquote cite="www.google.com">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus cumque temporibus tempore repellat nesciunt doloribus laboriosam labore, accusamus, qui amet pariatur praesentium aut, minus optio fugiat inventore. Voluptate, quidem delectus.</blockquote>
+
+    <p>usamos a tag <code>blockquote</code></p>
+
+    <h3 id="endereco">Endereço</h3>
+
+    <p>-Para indicarmos dados de contato, por exemplo:</p>
+
+    <address>
+        Email: <a href="mailto:fromtext@email.com">fromtext@email.com</a>
+        <br>
+        Telefone: <a href="tel:+55 13 996005555">+55 13 996005555</a>
+        <br>
+        Endereço: Rua 1, Bairro 2 - Brazil
+    </address>
+
+    <p>-usamos a tag <code>eddress</code></p>
+
+    <h3 id="barraescalar">Barra Escalar</h3>
+
+    <p>- Para criarmos uma Barra Escalar, por exemplo:</p>
+    uso do disco local C:
+    <meter value="5" min="0" max="10"></meter>
+
+    <p>-usamos tag <code>meter</code></p>
+
+    <h3 id="barraprogresso">Barra de Progresso</h3>
+
+    <p>-Para criarmos uma de progresso, por exemplo:</p>
+    Baixando:<progress value="70"  max="100"></progress>
+
+    <p>-usamos a tag <code>progress</code></p>
+</body>
+</html>

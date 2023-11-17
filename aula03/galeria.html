@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+
+    <style>
+        body{
+            background-color: bisque;
+        }
+        table{
+            margin: auto;
+            /*border: 1px solid black;*/
+        }
+        img{
+            border-radius: 10px;
+        }
+
+        img:hover{
+            transform: scale(1.7);
+            transition: transform 1s ease;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption><h1>Galeria de Fotos</h1></caption>
+        <tbody>
+            <tr>
+               <td><img src="https://picsum.photos/id/100/300/200"></td> 
+               <td><img src="https://picsum.photos/id/200/300/200"></td> 
+               <td><img src="https://picsum.photos/id/300/300/200"></td> 
+            </tr>
+            <tr>
+                <td><img src="https://picsum.photos/id/400/300/200"></td>
+                <td><img src="https://picsum.photos/id/500/300/200"></td>
+                <td><img src="https://picsum.photos/id/600/300/200"></td>
+            </tr>
+            <tr>
+                <td><img src="https://picsum.photos/id/700/300/200"></td>
+                <td><img src="https://picsum.photos/id/800/300/200"></td>
+                <td><img src="https://picsum.photos/id/900/300/200"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
